@@ -5,10 +5,10 @@ import "./styles.css";
 import * as Realm from "realm-web";
 
 // Connect to your MongoDB Realm app
-const REALM_APP_ID = "ehr_realm_app-lfyfr";
+const REALM_APP_ID = "xxxx";
 const app = new Realm.App({ id: REALM_APP_ID });
-const username = "test_therapist@glpg.net";
-const password = "testglpg1";
+const username = "xxxx";
+const password = "xxxx";
 
 // Create a component that displays the given user's details
 function UserDetail({ user }) {
